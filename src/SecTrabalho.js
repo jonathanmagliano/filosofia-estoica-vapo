@@ -8,7 +8,8 @@ import Flippy, { FrontSide, BackSide } from 'react-flippy';
 const SecTrabalho = () => {
   return (
     <section id="trabalho">
-      <h2>O nosso trabalho</h2>
+      <h2>O nosso <span id="h2stU">trabalho</span></h2>
+      <span id="rectline"></span>
     </section>
   );
 };
@@ -23,12 +24,12 @@ render() {
   ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
   // if you pass isFlipped prop component will be controlled component.
   // and other props, which will go to div
-  style={{ rect1 }}>
+  style={{ id="rect1" }}
   <FrontSide 
   img id="log" src={LOG} alt="Logic">
   </FrontSide>
   <BackSide
-  style={{ }}>
+  <p><span id="description1">Lógica de programação para o público infanto-juvenil></span></p>
   </BackSide>
 </Flippy>
 }
