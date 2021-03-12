@@ -1,4 +1,4 @@
-#rect1 {
+.rect1 {
     position: absolute;
     width: 410px;
     height: 340px;
@@ -7,7 +7,7 @@
     background: rgba(0, 0, 0, 0.25);
 }
 
-#rect2 {
+.rect2 {
     position: absolute;
     width: 358px;
     height: 339px;
@@ -16,7 +16,7 @@
     background: rgba(0, 0, 0, 0.25);
 }
 
-#rect3 {
+.rect3 {
     position: absolute;
     width: 432px;
     height: 405px;
@@ -25,7 +25,7 @@
     background: rgba(0, 0, 0, 0.25);
 }
 
-#rectline {
+.rectline {
     position: absolute;
     left: 44.51%;
     right: 39.72%;
@@ -34,7 +34,7 @@
     background: #FF653E;
 }
 
-#h2 {
+.h2 {
     position: absolute;
     width: 450px;
     height: 59px;
@@ -51,11 +51,11 @@
     color: #F4F4F4;
 }
 
-#h2stU {
+.h2stU {
     color: #FF967B;
 }
 
-#description1 {
+.description1 {
     position: absolute;
     width: 250px;
     height: 152px;
@@ -70,7 +70,7 @@
     color: #F4F4F4;
 }
 
-#description2 {
+.description2 {
     position: absolute;
     width: 294px;
     height: 228px;
@@ -85,7 +85,7 @@
     color: #F4F4F4;
 }
 
-#description3 {
+.description3 {
     position: absolute;
     width: 365px;
     height: 275px;
