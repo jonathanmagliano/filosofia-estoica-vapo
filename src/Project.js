@@ -1,12 +1,14 @@
+/*
 const Project = ({ description }) => {
   return (
     <div>
       <li>
         <p>{description}</p>
-        {/* Img tag here? */}
+        {/* Img tag here? }
       </li>
     </div>
   );
 };
 
 export default Project;
+*/
