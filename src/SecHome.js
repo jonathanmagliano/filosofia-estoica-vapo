@@ -6,8 +6,8 @@ const SecHome = () => {
     <section id="home">
       <h1>Filosofia Estóica Vapo</h1>
       <h2>Apoio educacional através de soluções tecnológicas</h2>
-      <a href="#contato">Contrate-nos</a>
-      <a href="#trabalho">Veja o que podemos fazer</a>
+      <button id="contato" href="#contato"> Contrate-nos</button>
+      <button id="work" href="#trabalho">👁 Veja o que podemos fazer</button>
 
       <img id="vr" src={VR} alt="Man with a VR set on" />
 

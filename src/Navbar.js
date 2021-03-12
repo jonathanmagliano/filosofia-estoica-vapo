@@ -1,11 +1,12 @@
 import NavbarItem from "./NavbarItem";
 import logo from "./assets/logo.png";
+import "./Navbar.scss"
 
 const Navbar = () => {
   return (
     <nav>
       {/* Logo */}
-      <img src={logo} alt="Company logo" />
+      <img id="logo" src={logo} alt="Company logo" />
 
       <ul id="nav-links">
         <NavbarItem sectionName="Home" />

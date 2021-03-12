@@ -8,13 +8,12 @@ import Flippy, { FrontSide, BackSide } from 'react-flippy';
 const SecTrabalho = () => {
   return (
     <section id="trabalho">
-      <h2>O nosso<h2stU> trabalho</h2stU></h2>
-      {{ rectline }}
+      <h2>O nosso trabalho</h2>
     </section>
   );
 };
 
-
+/*
 render() {
   // .. return
 <Flippy
@@ -33,6 +32,7 @@ render() {
   </BackSide>
 </Flippy>
 }
+*/
 
 
 /*
