@@ -3,13 +3,14 @@ import "./SecTrabalho.scss";
 import LOG from "./assets/img01.jpg";
 import LAB from "./assets/img02.jpg";
 import DIN from "./assets/img03.jpg";
+import LINE from "./assets/rectline.svg";
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 const SecTrabalho = () => {
   return (
     <section id="trabalho">
       <h2>O nosso <span id="h2stU">trabalho</span></h2>
-      <span id="rectline"></span>
+      <img id="rectline" src={LINE} alt=""></img>
     </section>
   );
 };
