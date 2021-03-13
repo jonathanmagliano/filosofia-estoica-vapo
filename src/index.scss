@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 320px;
+  margin-inline: auto;
   background: url("./assets/background.jpg") center center/cover no-repeat;
   background-attachment: fixed;
   // Default color unless another one is specified
@@ -12,4 +14,16 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    max-width: 1024px;
+  }
 }

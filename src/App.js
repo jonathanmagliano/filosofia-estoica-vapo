@@ -1,22 +1,22 @@
-import Navbar from "./Navbar";
-import SecHome from "./SecHome.js";
-import SecTrabalho from "./SecTrabalho.js";
+// import Navbar from "./Navbar";
+// import SecHome from "./SecHome.js";
+// import SecTrabalho from "./SecTrabalho.js";
 import SecEquipe from "./SecEquipe.js";
 import SecContato from "./SecContato.js";
 
-// import './App.css';
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
       {/* Navbar > NavbarItems */}
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* Home */}
-      <SecHome />
+      {/* <SecHome /> */}
 
       {/* Trabalho */}
-      <SecTrabalho />
+      {/* <SecTrabalho /> */}
 
       {/* Equipe */}
       <SecEquipe />
