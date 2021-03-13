@@ -1,0 +1,27 @@
+section#equipe {
+  min-height: 100vh;
+  h2 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  hr {
+    max-width: 25%;
+    height: 2px;
+    background: #ff653e;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
