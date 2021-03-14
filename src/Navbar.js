@@ -1,10 +1,10 @@
 import NavbarItem from "./NavbarItem";
 import logo from "./assets/logo.png";
-import "./Navbar.scss"
+import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav id="navbar">
       {/* Logo */}
       <img id="logo" src={logo} alt="Company logo" />
 

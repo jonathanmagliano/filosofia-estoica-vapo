@@ -8,17 +8,25 @@
 
   .member-photo {
     // Max width is 8.75rem
-    width: 5rem;
+    width: 5.7rem;
+    margin-bottom: 1.6rem;
   }
 
-  .member-name {
+  p.member-name {
+    font-size: 1.25rem;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
+    // color: #f8c7bb;
+    color: #f4f4f4;
+    padding: 0.55rem;
+    background: rgb(20, 21, 29);
+    border-bottom: 2px solid #f8c7bb;
   }
 
   .member-photo,
   .member-social > .btn {
     border-radius: 50%;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
   }
 
   // a tags (btns)
@@ -61,10 +69,16 @@
     .member-description {
       flex: 3.2;
       text-align: initial;
+      font-size: 1.12rem;
     }
 
     .member-photo {
       width: 7rem;
+    }
+
+    p.member-name {
+      font-size: 1.3rem;
+      max-width: 50%;
     }
   }
 
@@ -83,6 +97,10 @@
 
   .member:nth-of-type(even) {
     flex-flow: row-reverse;
+
+    p.member-name {
+      margin-left: auto;
+    }
 
     .member-description {
       text-align: right;

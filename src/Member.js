@@ -9,9 +9,8 @@ const Member = ({ name, description, image, linkedIn, gitHub }) => {
       {/* Column-like */}
       <div className="member-info">
         {/* Pass image and name to MemberInfo */}
-        <img src={image} alt={name} className="member-photo" />
-
         <p className="member-name">{name}</p>
+        <img src={image} alt={name} className="member-photo" />
 
         <div className="member-social">
           <a href={linkedIn} className="btn" target="_blank" rel="noreferrer">
