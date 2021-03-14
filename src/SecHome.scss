@@ -1,106 +1,252 @@
 #home {
-  position: relative;
-}
-
-img#vr {
-  position: relative;
-  width: 662px;
-  height: 906px;
-  padding-left: 60%;
-  top: 7vh;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  z-index: -10000;
-}
-
-h3#watermark {
-  position: absolute;
-  bottom: 0;
-  font-weight: 500;
-  font-size: 7.5rem;
-  line-height: 144px;
-  letter-spacing: 0.8em;
-  color: #f4f4f4;
-  opacity: 0.07;
-  transform: rotate(-90deg);
-}
-
-#home h1 {
-  position: absolute;
-  width: 831px;
-  height: 74px;
-  left: 85px;
-  top: 354px;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 61px;
-  line-height: 74px;
-  letter-spacing: 0.1em;
-
-  color: #FF967B;
-}
-
-#home h2 {
-  position: absolute;
-  width: 559px;
-  height: 76px;
-  left: 85px;
-  top: 470px;
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 31px;
-  line-height: 38px;
-
-  color: #F4F4F4;
-}
-
-#contato{
-  position: absolute;
-  width: 246px;
-  height: 47px;
-  left: 0px;
-  top: 584px;
-
-  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
-  border: none;
- 
-  margin-top: 16px;
-  background: #BA4729;
-  color: #F4F4F4;
-  display: inline-block;
   text-align: center;
-  text-decoration: none;
-  transition: .3s linear;
-  z-index: 10000;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  h1 {
+    font-weight: 500;
+    font-size: 2.9rem;
+    // font-size: 61px;
+    // line-height: 74px;
+    letter-spacing: 0.1em;
+    color: #ff967b;
+  }
+
+  h2 {
+    font-weight: normal;
+    // font-size: 31px;
+    // line-height: 38px;
+  }
+
+  a {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 255, 255, 0.068);
+    background: #ba4729;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  }
+
+  img#vr {
+    position: absolute;
+    // width: 390px;
+    width: 460px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.35;
+    top: 25vh;
+    // width: 662px;
+    // height: 906px;
+    // padding-left: 60%;
+    // left: 60%;
+    // top: 7vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: -10000;
+  }
+
+  h3#watermark {
+    pointer-events: none;
+    position: absolute;
+    bottom: 7%;
+    font-weight: 500;
+    font-size: 7.5rem;
+    line-height: 144px;
+    letter-spacing: 0.8em;
+    color: #f4f4f4;
+    opacity: 0.07;
+    transform: rotate(-90deg);
+  }
 }
 
-#contato:hover{
-  cursor: pointer;
+@media screen and (min-width: 768px) {
+  #home {
+    text-align: initial;
+    margin-top: -6%;
+
+    #home-content {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      height: 100vh;
+      // margin-top: -12%;
+      max-width: 70%;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      margin-block: initial;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+    }
+
+    img#vr {
+      // position: static;
+      opacity: 1;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    a {
+      padding: 0.94rem;
+      font-size: 1.1rem;
+      display: inline-block;
+      max-width: 40%;
+      text-align: center;
+
+      &:first-of-type {
+        text-align: end;
+        padding-right: 1.5rem;
+      }
+
+      &:nth-of-type(2) {
+        position: absolute;
+        top: 70%;
+        right: 0;
+        width: 100%;
+        text-align: left;
+        padding-left: 1.5rem;
+      }
+    }
+  }
 }
 
-#work{
-  position: absolute;
-  width: 246px;
-  height: 47px;
-  left: 400px;
-  top: 684px;
-  
-  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
-  border: none;
-  
-  margin-top: 16px;
-  background: #BA4729;
-  color: #F4F4F4;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  transition: .3s linear;
-  z-index: 10000;
+@media screen and (min-width: 1200px) {
+  #home {
+    // #home-content {
+    //   max-width: 75%;
+    // }
+
+    img#vr {
+      width: 662px;
+    }
+
+    a {
+      font-size: 1.16rem;
+
+      &:nth-of-type(2) {
+        top: 65%;
+      }
+    }
+  }
 }
 
-#work:hover{
-  cursor: pointer;
+// Since the second button is positioned absolute, let's limit it to a certain range so it doesn't end up in the ceiling or something
+
+@media screen and (min-height: 1200px) {
+  #home {
+    a {
+      &:nth-of-type(2) {
+        top: Min(70%, 800px);
+      }
+    }
+  }
 }
+
+@media screen and (min-height: 1500px) {
+  #home {
+    a {
+      &:nth-of-type(2) {
+        top: Min(70%, 1000px);
+      }
+    }
+  }
+}
+
+// h3#watermark {
+//   position: absolute;
+//   bottom: 0;
+//   font-weight: 500;
+//   font-size: 7.5rem;
+//   line-height: 144px;
+//   letter-spacing: 0.8em;
+//   color: #f4f4f4;
+//   opacity: 0.07;
+//   transform: rotate(-90deg);
+// }
+
+// #home h1 {
+//   position: absolute;
+//   width: 831px;
+//   height: 74px;
+//   left: 85px;
+//   top: 354px;
+
+//   font-family: Montserrat;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 61px;
+//   line-height: 74px;
+//   letter-spacing: 0.1em;
+
+//   color: #ff967b;
+// }
+
+// #home h2 {
+//   position: absolute;
+//   width: 559px;
+//   height: 76px;
+//   left: 85px;
+//   top: 470px;
+
+//   font-family: Montserrat;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 31px;
+//   line-height: 38px;
+
+//   color: #f4f4f4;
+// }
+
+// #contato {
+//   position: absolute;
+//   width: 246px;
+//   height: 47px;
+//   left: 0px;
+//   top: 584px;
+
+//   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+//   border: none;
+
+//   margin-top: 16px;
+//   background: #ba4729;
+//   color: #f4f4f4;
+//   display: inline-block;
+//   text-align: center;
+//   text-decoration: none;
+//   transition: 0.3s linear;
+//   z-index: 10000;
+// }
+
+// #contato:hover {
+//   cursor: pointer;
+// }
+
+// #work {
+//   position: absolute;
+//   width: 246px;
+//   height: 47px;
+//   left: 400px;
+//   top: 684px;
+
+//   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+//   border: none;
+
+//   margin-top: 16px;
+//   background: #ba4729;
+//   color: #f4f4f4;
+//   display: inline-block;
+//   text-align: center;
+//   text-decoration: none;
+//   transition: 0.3s linear;
+//   z-index: 10000;
+// }
+
+// #work:hover {
+//   cursor: pointer;
+// }

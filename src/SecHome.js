@@ -4,9 +4,16 @@ import "./SecHome.scss";
 const SecHome = () => {
   return (
     <section id="home">
-      <h1>Filosofia Estóica Vapo</h1>
-      <h2>Apoio educacional através de soluções tecnológicas</h2>
-      <button id="contato" href="#contato">Saiba mais</button>
+      <div id="home-content">
+        <h1>Filosofia Estóica Vapo</h1>
+        <h2>Apoio educacional através de soluções tecnológicas</h2>
+        <a id="btn-contato" href="#contato">
+          Contrate-nos <i className="fa fa-handshake"></i>
+        </a>
+        <a id="btn-trabalho" href="#trabalho">
+          <i className="fa fa-eye"></i> Veja o que podemos fazer
+        </a>
+      </div>
 
       <img id="vr" src={VR} alt="Man with a VR set on" />
 
