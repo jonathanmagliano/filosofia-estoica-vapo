@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import SecHome from "./SecHome.js";
-// import SecTrabalho from "./SecTrabalho.js";
+import SecTrabalho from "./SecTrabalho.js";
 import SecEquipe from "./SecEquipe.js";
 import SecContato from "./SecContato.js";
 
@@ -16,7 +16,7 @@ function App() {
       <SecHome />
 
       {/* Trabalho */}
-      {/* <SecTrabalho /> */}
+      <SecTrabalho />
 
       {/* Equipe */}
       <SecEquipe />
