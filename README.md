@@ -34,5 +34,8 @@ III - Visualização da página localmente com porta padrão:  [Local](http://lo
 
 ## Integrantes da FEV!
 
-@dudukb @jonathanmagliano @Gsus @jaiirsilva
+* [@jonathanmagliano](https://github.com/jonathanmagliano)
+* [@Gsus](https://github.com/Gsus)
+* [@dudukb](https://github.com/dudukb)
+* [@jaiirsilva](https://github.com/jaiirsilva)
 
