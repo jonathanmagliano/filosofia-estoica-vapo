@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,8 +12,7 @@ body {
   margin-right: auto;
   margin-inline: auto;
   width: Min(90%, 520px);
-  scroll-behavior: smooth;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.45)),
     url("./assets/background.jpg") center center/cover no-repeat;
   background-attachment: fixed;
   // Default color unless another one is specified
