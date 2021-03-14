@@ -6,6 +6,8 @@ nav {
 
   & > * {
     // Margin top and bottom
+    margin-top: 1.57rem;
+    margin-bottom: 1.57rem;
     margin-block: 1.57rem;
   }
 
@@ -30,7 +32,11 @@ nav {
 
     li {
       padding-bottom: 0.3rem;
-      border-bottom: 1px solid #ff653e;
+      transition: border 0.4s;
+      border-bottom: 1px solid #ff653e7e;
+      &:hover {
+        border-bottom: 1px solid #ff653e;
+      }
     }
     // NavbarItem: li, with an a tag inside
     li a {
