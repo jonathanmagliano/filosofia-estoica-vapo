@@ -1,8 +1,0 @@
-.App {
-  position: relative;
-  // Every item who has a sibling before it
-  // Every section, basically.
-  & > * + *  {
-    padding: 5rem 0;
-  }
-}

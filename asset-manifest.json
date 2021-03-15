@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/filosofia-estoica-vapo/static/css/main.12820e33.chunk.css",
+    "main.js": "/filosofia-estoica-vapo/static/js/main.70f40b1a.chunk.js",
+    "main.js.map": "/filosofia-estoica-vapo/static/js/main.70f40b1a.chunk.js.map",
+    "runtime-main.js": "/filosofia-estoica-vapo/static/js/runtime-main.b5be91ee.js",
+    "runtime-main.js.map": "/filosofia-estoica-vapo/static/js/runtime-main.b5be91ee.js.map",
+    "static/js/2.26801bd1.chunk.js": "/filosofia-estoica-vapo/static/js/2.26801bd1.chunk.js",
+    "static/js/2.26801bd1.chunk.js.map": "/filosofia-estoica-vapo/static/js/2.26801bd1.chunk.js.map",
+    "index.html": "/filosofia-estoica-vapo/index.html",
+    "static/css/main.12820e33.chunk.css.map": "/filosofia-estoica-vapo/static/css/main.12820e33.chunk.css.map",
+    "static/js/2.26801bd1.chunk.js.LICENSE.txt": "/filosofia-estoica-vapo/static/js/2.26801bd1.chunk.js.LICENSE.txt",
+    "static/media/VR-man.0e9c6d3d.jpg": "/filosofia-estoica-vapo/static/media/VR-man.0e9c6d3d.jpg",
+    "static/media/index.scss": "/filosofia-estoica-vapo/static/media/background.5eb53577.jpg",
+    "static/media/contato-1.c0bc8e2a.png": "/filosofia-estoica-vapo/static/media/contato-1.c0bc8e2a.png",
+    "static/media/contato-2.5ebbf2c9.png": "/filosofia-estoica-vapo/static/media/contato-2.5ebbf2c9.png",
+    "static/media/envelope.dfa11367.svg": "/filosofia-estoica-vapo/static/media/envelope.dfa11367.svg",
+    "static/media/img01.ea778f3b.jpg": "/filosofia-estoica-vapo/static/media/img01.ea778f3b.jpg",
+    "static/media/img02.d2e7230e.jpg": "/filosofia-estoica-vapo/static/media/img02.d2e7230e.jpg",
+    "static/media/img03.c940c299.jpg": "/filosofia-estoica-vapo/static/media/img03.c940c299.jpg",
+    "static/media/instagram.83ced9e7.svg": "/filosofia-estoica-vapo/static/media/instagram.83ced9e7.svg",
+    "static/media/linkedInOrange.0a53427b.svg": "/filosofia-estoica-vapo/static/media/linkedInOrange.0a53427b.svg",
+    "static/media/logo.deee3b0b.png": "/filosofia-estoica-vapo/static/media/logo.deee3b0b.png",
+    "static/media/phone.61884a64.svg": "/filosofia-estoica-vapo/static/media/phone.61884a64.svg",
+    "static/media/profileEduardo.fa1888f4.png": "/filosofia-estoica-vapo/static/media/profileEduardo.fa1888f4.png",
+    "static/media/profileJair.bcc8edf2.jpeg": "/filosofia-estoica-vapo/static/media/profileJair.bcc8edf2.jpeg",
+    "static/media/profileJesús.ed001240.jpeg": "/filosofia-estoica-vapo/static/media/profileJesús.ed001240.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5be91ee.js",
+    "static/js/2.26801bd1.chunk.js",
+    "static/css/main.12820e33.chunk.css",
+    "static/js/main.70f40b1a.chunk.js"
+  ]
+}
