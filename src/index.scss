@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // max-width: 320px;
+  // Margin fallback 'cause browser support
+  margin-left: auto;
+  margin-right: auto;
+  margin-inline: auto;
+  width: Min(90%, 520px);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.45)),
+    url("./assets/background.jpg") center center/cover no-repeat;
+  background-attachment: fixed;
+  // Default color unless another one is specified
+  color: #f4f4f4;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    // max-width: 720px;
+    width: Min(90%, 850px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    // max-width: 1024px;
+    // width: Min(75%, 1024px);
+    width: Min(90%, 1200px);
+  }
+}
