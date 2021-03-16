@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/filosofia-estoica-vapo/static/css/main.12820e33.chunk.css",
-    "main.js": "/filosofia-estoica-vapo/static/js/main.70f40b1a.chunk.js",
-    "main.js.map": "/filosofia-estoica-vapo/static/js/main.70f40b1a.chunk.js.map",
+    "main.js": "/filosofia-estoica-vapo/static/js/main.e05b1e4f.chunk.js",
+    "main.js.map": "/filosofia-estoica-vapo/static/js/main.e05b1e4f.chunk.js.map",
     "runtime-main.js": "/filosofia-estoica-vapo/static/js/runtime-main.b5be91ee.js",
     "runtime-main.js.map": "/filosofia-estoica-vapo/static/js/runtime-main.b5be91ee.js.map",
     "static/js/2.26801bd1.chunk.js": "/filosofia-estoica-vapo/static/js/2.26801bd1.chunk.js",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.b5be91ee.js",
     "static/js/2.26801bd1.chunk.js",
     "static/css/main.12820e33.chunk.css",
-    "static/js/main.70f40b1a.chunk.js"
+    "static/js/main.e05b1e4f.chunk.js"
   ]
 }
