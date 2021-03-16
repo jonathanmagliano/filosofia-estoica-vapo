@@ -1,6 +1,6 @@
 # # FEV
 
--   🤟🏽 Foi desenvolvido uma página web que consiste na ideia de mostrar uma empresa hipotética que oferece soluções tecnológicas no meio educacional. Modelo Single-Page Application (SPA) com noções em Javascript, CSS3 e HTML5. Competição "portfólio criativo"; servidor Ballerini no Discord. Esperamos que você goste do projeto!.
+-   🤟🏽 Foi desenvolvido uma página web que consiste na ideia de mostrar uma empresa hipotética que oferece soluções tecnológicas no meio educacional. Modelo Single-Page Application (SPA) com noções em Javascript, CSS3 e HTML5. Competição "portfólio criativo"; servidor Ballerini no Discord. Esperamos que você goste do projeto.
 
 
 # Aspecto geral
@@ -8,7 +8,7 @@
 -   Visual Studio Code ou sua IDE favorita.
 -   Node: versão 12.x >=
 -   npm: 6.x >=
--   yarn: 1.x =>
+-   yarn: 1.x >=
 -   ReactJS: 17.0.1
 
 ## Desenvolvimento
